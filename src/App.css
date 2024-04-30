@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:wght@200..1000&display=swap');
+
+.App {
+  font-family: 'lato', 'Veranda';
+  font-weight: 100;
+}
+
+.staff-container {
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.staff {
+  background-color: whitesmoke;
+  border: 10px solid black;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  justify-content: center;
+}
+
+.check {
+  width: 140%;
+  overflow: hidden;
+  height: 1em;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.right {
+  background-color:#77dd77;
+}
+
+.wrong {
+  background-color: tomato;
+}
+
+#pno {
+  padding-top: 5%;
+}
+
+.icon {
+  color: white;
+  stroke: white;
+  fill: white;
+  cursor: pointer;
+  width: 2%;
+  height: 2%;
+}
+
+#paper {
+  min-width: 40vw;
+}
